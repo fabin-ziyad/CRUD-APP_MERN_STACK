@@ -1,5 +1,5 @@
 import axios from "axios";
-const APP_URL = "http://localhost:4000";
+const APP_URL = "https://crud-app-mern-stack-h5y517xzl-fabin-ziyad.vercel.app/";
 
 const handleResponse = (res) => {
   // Response handler.
