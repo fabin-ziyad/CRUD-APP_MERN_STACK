@@ -1,6 +1,6 @@
 import axios from "axios";
 import { AuthHeader } from "../../utils/auth/authHeader";
-const APP_URL = "http://localhost:4000";
+const APP_URL = "https://crudapp-m6dz.onrender.com";
 
 const handleResponse = (res) => {
   // Response handler.
