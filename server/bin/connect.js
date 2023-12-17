@@ -1,9 +1,8 @@
 const { connect, connection } = require("mongoose");
-const MONGO_URL = "mongodb://0.0.0.0:27017/crud";
 
 const connectDB = async () => {
   try {
-    await connect(MONGO_URL);
+    await connect(process.env.MONGO_URI);
     connection.on('error', (error) => {
       console.error('MongoDB connection error:', error);
     });

@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./bin/www",
-    "install":"npm install",
-    "start-server": "node app.js"
+    "start": "node ./bin/www"
   },
   "author": "",
   "license": "ISC",
