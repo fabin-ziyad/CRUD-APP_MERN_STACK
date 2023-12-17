@@ -1,0 +1,14 @@
+.background-image{
+    background-image: url("../../assets/signup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+}
+.background-image-login{
+    background-image: url("../../assets/signup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+}
