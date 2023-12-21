@@ -15,7 +15,7 @@ export const RegisterUser = async (data) => {
       alertActions.warning("No network Avilable");
     }
   } catch (error) {
-    alertActions.error(error.message);
+    alertActions.error(error.response.data.message);
   }
 };
 export const LoginUser = async (data) => {
@@ -32,6 +32,6 @@ export const LoginUser = async (data) => {
       alertActions.error(loginUser.message);
     }
   } catch (error) {
-    alertActions.error(error.message);
+    alertActions.error(error.response.data.message);
   }
 };
