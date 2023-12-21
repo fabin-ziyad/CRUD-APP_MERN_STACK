@@ -21,7 +21,7 @@ const Login = () => {
     const logged = await LoginUser(formData);
     if (logged) {
       
-      navigate("/dashboard");
+      navigate("/");
     }
   };
   return (
