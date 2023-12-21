@@ -71,7 +71,7 @@ const EditProfile = () => {
     e.preventDefault();
     const updatedUser = await UpdateUser(user._id, formData);
     if (updatedUser) {
-      navigate("/dashboard")
+      navigate("/")
     }
   };
 
