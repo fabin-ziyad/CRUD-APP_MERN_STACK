@@ -34,7 +34,7 @@ npm start
 ```
 
 - Access the application at `localhost:3000`.
-- Paths: /register, /login, /dashboard
+- Paths: /register, /login,
 
 3. **Server setup:**
 
